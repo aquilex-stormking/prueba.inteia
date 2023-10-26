@@ -1,0 +1,6 @@
+# Otros archivos y carpetas a ignorar
+logs/
+*.bak
+
+# Ignorar archivo .env
+.env
