@@ -10,7 +10,7 @@ from sqlalchemy.exc import IntegrityError
 
 app = FastAPI()
 
-engine = create_engine('postgresql://postgres:12345678@localhost:5432/eventos')
+engine = create_engine('postgresql://postgres:12345678@bd_postgres:5432/eventos')
 
 @app.on_event("startup")
 async def startup():

@@ -10,6 +10,8 @@ Base = declarative_base()
 
 # DB Dependency
 def get_db(settings: Settings = Depends(get_settings)): 
+   
+    print(settings)
     # Create engine
     engine = create_engine(f"postgresql://{settings.DB_UID}:{settings.DB_PWD}@{settings.DB_SERVER}:{settings.DB_PORT}/{settings.DB_NAME}")
     
