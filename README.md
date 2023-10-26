@@ -1,5 +1,6 @@
 # prueba.inteia
 Desarrollo prueba en Fast Api
+<<<<<<< HEAD
 
 #Descargar Python: Ve a la página oficial de descargas de Python y descarga la versión que necesites.
 
@@ -22,3 +23,5 @@ engine = create_engine(f'postgresql://{settings.DB_UID}:{settings.DB_PWD}@{setti
 #esta es de postgress si quieres de SQL
 
 engine = create_engine(f'mssql+pyodbc://{settings.DB_UID}:{settings.DB_PWD}@{settings.DB_SERVER}:{settings.DB_PORT}/{settings.DB_NAME}?driver=ODBC+Driver+17+for+SQL+Server')
+=======
+>>>>>>> main
