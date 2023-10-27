@@ -6,6 +6,7 @@ psycopg2==2.9.9
 psycopg2-binary==2.9.6
 
 pydantic
+pydantic[dotenv]
 pydantic_core==2.6.3
 python-dateutil==2.8.2
 request2==0.2

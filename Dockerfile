@@ -6,6 +6,7 @@ WORKDIR /app
 
 # Copiar los requerimientos e instalar dependencias
 COPY requirements.txt .
+run pip install pydantic[dotenv]
 RUN pip install  -r requirements.txt
 
 # Copiar el código fuente
