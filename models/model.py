@@ -83,13 +83,15 @@ class Model_Program():
         return db_evento
     
     def create_multiple_tipo_eventos(db):
-        tipo_eventos = [
-            TipoEvento(nombre='tipo evento1'),
-            TipoEvento(nombre='tipo evento2'),
-            TipoEvento(nombre='tipo evento3')
-        ]
+        pass
+        db.close()
+        # tipo_eventos = [
+        #     TipoEvento(nombre='tipo evento1'),
+        #     TipoEvento(nombre='tipo evento2'),
+        #     TipoEvento(nombre='tipo evento3')
+        # ]
 
-        db.add_all(tipo_eventos)
-        db.commit()
+        # db.add_all(tipo_eventos)
+        # db.commit()
 
-        return tipo_eventos
+        # return tipo_eventos
